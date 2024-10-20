@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
 
-// Fonction qui affiche le nombre de paramètres
+// Fonction qui affiche le nombre de paramètres 
 void fonction(int *tab, long long cmpt) {
     cout << "Nombre de paramètres : " << cmpt << endl;
 }
 
 int main() {
-    long long cmpt = 14450000000; // Initialiser le compteur à 0
+    long long cmpt = 1; // Initialiser le compteur à 0
 
     while (true) {  // Boucle infinie
         cmpt = cmpt+1; // Incrémenter le nombre d'éléments
